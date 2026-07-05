@@ -1,0 +1,151 @@
+product_id,product_name,category,unit_price,unit_cost
+1001,Wireless Earbuds,Electronics,200.2,163.31
+1002,USB-C Hub,Electronics,100.36,78.49
+1003,Portable Charger,Electronics,226.79,159.88
+1004,Bluetooth Speaker,Electronics,269.46,216.97
+1005,Webcam HD,Electronics,140.61,"114,59"
+1006,Mechanical Keyboard,Electronics,84.91,"62,33"
+1007,Gaming Mouse,Electronics,32.27,25.37
+1008,LED Desk Lamp,Electronics,203.07,147.7
+1009,Smart Plug,Electronics,85.4,61.47
+1010,Digital Thermometer,Electronics,246.78,202.09
+1011,Action Camera,Electronics,245.79,172.38
+1012,E-Reader Case,Electronics,118.23,93.82
+1013,HDMI Cable 2m,Electronics,287.28,219.13
+1014,Wireless Mouse,Electronics,50.41,"40,51"
+1015,USB Flash Drive 64GB,Electronics,257.21,184.51
+1016,Phone Stand,Electronics,246.15,171.31
+1017,Laptop Cooling Pad,Electronics,171.93,112.54
+1018,Screen Protector Pack,Electronics,128.72,93.47
+1019,Car Phone Mount,Electronics,252.26,"180,33"
+1020,Power Strip 6-outlet,Electronics,261.11,188.48
+1021,Noise Cancelling Headphones,Electronics,218.05,177.1
+1022,Tablet Stylus,Electronics,87.44,67.4
+1023,Mini Projector,Electronics,46.86,36.57
+1024,Smart Watch Band,Electronics,52.67,40.7
+1025,Ring Light,Electronics,199.18,"150,97"
+1026,Python Crash Course,Books,17.99,11.13
+1027,Data Science Handbook,Books,15.21,7.75
+1028,Clean Code,Books,25.5,14.25
+1029,The Pragmatic Programmer,Books,12.62,6.82
+1030,SQL in 10 Minutes,Books,12.41,7.36
+1031,Atomic Habits,Books,34.72,19.23
+1032,Thinking Fast and Slow,Books,23.04,12.61
+1033,Deep Work,Books,30.76,16.41
+1034,The Art of Statistics,Books,14.18,"9,15"
+1035,Designing Data-Intensive Apps,Books,16.52,10.07
+1036,Storytelling with Data,Books,13.7,6.97
+1037,The Signal and the Noise,Books,31.66,19.08
+1038,Algorithms to Live By,Books,25.7,15.18
+1039,How Charts Lie,Books,32.69,19.0
+1040,Naked Statistics,Books,15.15,9.29
+1041,Data Smart,Books,23.16,14.14
+1042,Business Model Generation,Books,23.78,12.25
+1043,The Lean Startup,Books,18.78,"11,59"
+1044,Measure What Matters,Books,34.93,"20,03"
+1045,Good Strategy Bad Strategy,Books,10.45,6.72
+1046,Freakonomics,Books,10.96,6.09
+1047,The Black Swan,Books,29.39,17.24
+1048,Sapiens,Books,9.72,5.76
+1049,Factfulness,Books,34.9,19.92
+1050,Range,Books,34.22,17.82
+1051,"Knife, Fork & Spoon Set",Home & Kitchen,10.91,7.09
+1052,"Salt, Pepper & Spice Rack",Home & Kitchen,63.86,43.64
+1053,Coffee Maker,Home & Kitchen,31.08,20.66
+1054,Toaster 2-Slice,Home & Kitchen,18.81,"13,2"
+1055,Blender 600W,Home & Kitchen,45.84,27.89
+1056,Cutting Board Bamboo,Home & Kitchen,79.19,"58,01"
+1057,Kitchen Scale Digital,Home & Kitchen,49.55,37.06
+1058,Food Storage Containers,Home & Kitchen,82.1,51.17
+1059,Tea Kettle Stainless,Home & Kitchen,33.58,"22,33"
+1060,Dish Drying Rack,Home & Kitchen,58.11,43.73
+1061,Oven Mitts Pair,Home & Kitchen,70.24,47.97
+1062,Wine Opener Set,Home & Kitchen,71.51,48.95
+1063,Ice Cube Tray Silicone,Home & Kitchen,10.05,7.25
+1064,Measuring Cup Set,Home & Kitchen,11.54,7.07
+1065,Mixing Bowl Set,Home & Kitchen,79.42,50.06
+1066,Baking Sheet Pack,Home & Kitchen,34.29,26.39
+1067,Spice Jar Set,Home & Kitchen,79.36,48.37
+1068,Water Filter Pitcher,Home & Kitchen,16.77,11.61
+1069,Lunch Box Insulated,Home & Kitchen,15.47,"9,95"
+1070,Travel Mug 500ml,Home & Kitchen,70.5,53.36
+1071,Candle Set Scented,Home & Kitchen,47.55,32.38
+1072,Photo Frame 20x30,Home & Kitchen,30.94,19.27
+1073,Wall Clock Minimal,Home & Kitchen,43.43,32.22
+1074,Throw Pillow Cover,Home & Kitchen,52.6,34.12
+1075,LED String Lights,Home & Kitchen,25.89,18.74
+1076,Yoga Mat 6mm,Sports & Outdoors,119.48,"89,91"
+1077,Resistance Band Set,Sports & Outdoors,59.31,45.81
+1078,Jump Rope Speed,Sports & Outdoors,25.07,20.46
+1079,Water Bottle 1L,Sports & Outdoors,48.51,36.95
+1080,Foam Roller,Sports & Outdoors,36.85,30.11
+1081,Dumbbell Set 5kg,Sports & Outdoors,19.67,14.86
+1082,Running Armband,Sports & Outdoors,36.73,26.23
+1083,Cycling Gloves,Sports & Outdoors,104.84,88.0
+1084,Swim Goggles,Sports & Outdoors,37.7,28.26
+1085,Hiking Socks 3-Pack,Sports & Outdoors,35.14,29.17
+1086,Headlamp LED,Sports & Outdoors,113.04,86.4
+1087,Camping Mug,Sports & Outdoors,63.05,"46,17"
+1088,Fitness Tracker Band,Sports & Outdoors,99.21,81.49
+1089,Ab Wheel Roller,Sports & Outdoors,22.47,17.65
+1090,Pull-Up Bar,Sports & Outdoors,57.75,45.04
+1091,Tennis Balls 3-Pack,Sports & Outdoors,90.74,67.96
+1092,Badminton Set,Sports & Outdoors,118.29,98.8
+1093,Frisbee,Sports & Outdoors,55.48,44.33
+1094,Cooling Towel,Sports & Outdoors,105.06,85.38
+1095,Compression Sleeves,Sports & Outdoors,32.54,"25,47"
+1096,Gym Bag 40L,Sports & Outdoors,57.56,46.52
+1097,Insulated Flask,Sports & Outdoors,38.98,27.73
+1098,Trekking Poles,Sports & Outdoors,59.86,43.15
+1099,Bike Light Set,Sports & Outdoors,71.44,60.18
+1100,Sports Tape Roll,Sports & Outdoors,119.92,86.89
+1101,Face Moisturizer 50ml,Beauty & Health,53.45,22.17
+1102,Sunscreen SPF50,Beauty & Health,47.43,26.88
+1103,Hand Cream Set,Beauty & Health,29.28,16.32
+1104,Lip Balm 3-Pack,Beauty & Health,25.05,14.74
+1105,Hair Brush Detangling,Beauty & Health,23.95,9.65
+1106,Nail Clipper Set,Beauty & Health,18.26,"8,09"
+1107,Electric Toothbrush,Beauty & Health,27.75,"14,3"
+1108,Dental Floss 6-Pack,Beauty & Health,52.87,21.2
+1109,Face Mask Sheet Pack,Beauty & Health,32.79,14.96
+1110,Body Lotion 200ml,Beauty & Health,12.74,6.89
+1111,Shampoo Bar Natural,Beauty & Health,53.44,25.87
+1112,Deodorant Roll-On,Beauty & Health,32.11,14.46
+1113,Vitamin D Supplements,Beauty & Health,7.86,3.8
+1114,Magnesium Tablets,Beauty & Health,30.14,12.94
+1115,Protein Bars 12-Pack,Beauty & Health,12.87,"5,25"
+1116,First Aid Kit Basic,Beauty & Health,9.01,"5,07"
+1117,Thermometer Digital,Beauty & Health,34.75,16.16
+1118,Eye Mask Sleep,Beauty & Health,16.76,9.65
+1119,Essential Oil Set,Beauty & Health,49.51,27.27
+1120,Massage Ball Set,Beauty & Health,34.73,"16,54"
+1121,Teeth Whitening Strips,Beauty & Health,25.96,12.55
+1122,Cotton Pads 100pk,Beauty & Health,31.14,12.86
+1123,Hairband Set Elastic,Beauty & Health,15.21,"6,95"
+1124,Mirror Compact,Beauty & Health,16.93,8.82
+1125,Tweezers Precision,Beauty & Health,38.58,20.83
+1126,Cotton T-Shirt Basic,Clothing & Accessories,30.55,16.79
+1127,Running Shorts,Clothing & Accessories,14.72,8.95
+1128,Wool Socks 3-Pack,Clothing & Accessories,74.9,"37,51"
+1129,Baseball Cap,Clothing & Accessories,14.76,9.7
+1130,Sunglasses UV400,Clothing & Accessories,27.24,13.98
+1131,Leather Belt,Clothing & Accessories,67.26,"35,25"
+1132,Canvas Backpack,Clothing & Accessories,34.02,22.74
+1133,Waterproof Jacket,Clothing & Accessories,64.19,"35,9"
+1134,Beanie Hat Knit,Clothing & Accessories,49.76,25.01
+1135,Scarf Lightweight,Clothing & Accessories,52.51,36.67
+1136,Gloves Touchscreen,Clothing & Accessories,63.11,"40,4"
+1137,Umbrella Compact,Clothing & Accessories,53.12,27.21
+1138,Wallet RFID-Block,Clothing & Accessories,18.73,12.68
+1139,Watch Strap Nylon,Clothing & Accessories,16.96,10.0
+1140,Tote Bag Canvas,Clothing & Accessories,27.7,16.04
+1141,Zip Hoodie,Clothing & Accessories,56.64,37.34
+1142,Swim Shorts,Clothing & Accessories,51.23,33.16
+1143,Pyjama Set,Clothing & Accessories,41.75,21.67
+1144,Slippers Memory Foam,Clothing & Accessories,65.0,44.3
+1145,Workout Leggings,Clothing & Accessories,37.53,24.19
+1146,Polo Shirt,Clothing & Accessories,10.23,5.58
+1147,Linen Shirt,Clothing & Accessories,51.41,33.29
+1148,Denim Jacket,Clothing & Accessories,58.18,34.31
+1149,Crossbody Bag,Clothing & Accessories,37.8,26.39
+1150,Bucket Hat,Clothing & Accessories,14.89,7.79
