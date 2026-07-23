@@ -1,5 +1,7 @@
 # Shipping Cost Analysis — Did Free Shipping Increase Profit?
 
+*Conclusion: Yes — free shipping increased profitability.*
+
 ## Business Question
 
 A mid-sized European e-commerce company introduced **free shipping on orders above €50** starting July 2024. Before that, every order carried a flat fee of **€5.95**. The finance team raised a concern:
@@ -58,9 +60,9 @@ The dataset covers two periods:
 | Issue | Action |
 |---|---|
 | 452 malformed rows in `order_lines` (9 columns instead of 8) | Dropped |
-| 220 duplicate `line_id` rows in `order_lines` | Dropped |
+| 220 duplicate `line_id` rows in `order_lines` | Verified as exact full-row duplicates (same product, quantity, price) before dropping |
 | Missing `shipping_cost` values | Filled using business rules (€5.95 before July; €0 for orders > €50 in promo) |
-| Missing `unit_price` and `line_total` in order lines | Back-calculated from `order_total - shipping_cost - known_line_totals` |
+| Missing `unit_price` and `line_total` in order lines (927 rows) | Back-calculated from `order_total - known_line_totals` (confirmed `order_total` reflects merchandise value only, not shipping) |
 | `unit_cost` stored with comma as decimal separator (`18,50`) | Replaced comma with period before casting to float |
 
 ### 3. Enrich
@@ -68,6 +70,7 @@ The dataset covers two periods:
 - Engineered `shipping_promotion_period` label (`before` / `on_promotion`)
 - Calculated `profit_margin = (unit_price - unit_cost) × quantity` per line item
 - Classified orders into spending tiers using `pd.cut()`
+
 
 ### 4. Analyse
 Key questions addressed:
@@ -87,13 +90,13 @@ Findings translated into a business recommendation with caveats.
 
 | Metric | Result |
 |---|---|
-| Order volume during promotion | 68.7% of the full 6-month before period — in just 3 months |
-| Revenue during promotion | 78.2% of the before period revenue — in just 3 months |
-| Profit margin during promotion | ~69% of the before period — in just 3 months |
-| Shipping cost absorbed by company | €36,610 |
-| Net promotion profit (orders > €50) | €422,760 |
+| Order volume during promotion | 59.4% of the full 6-month before period's order count — reached in just 3 months |
+| Revenue during promotion | 69.7% of the before period's revenue — reached in just 3 months |
+| Profit margin during promotion | 69.2% of the before period's profit — reached in just 3 months |
+| Shipping cost absorbed by company (orders > €50) | €36,610.35 |
+| Net promotion profit (orders > €50) | €457,274.91 |
 
-The promotion generated significantly more revenue and profit per month than the before period, and the absorbed shipping cost was comfortably covered by the increase in sales volume and order values.
+Every region posted a higher monthly profit run-rate during the promotion. The promotion generated significantly more revenue and profit per month than the before period, and the absorbed shipping cost was comfortably covered by the increase in sales volume and order values.
 
 ---
 
@@ -103,7 +106,6 @@ The promotion generated significantly more revenue and profit per month than the
 - **pandas** — data loading, cleaning, transformation, analysis
 - **NumPy** — vectorised calculations and conditional assignment
 - **Matplotlib** — visualisation
-- **SQL (SQLite / DuckDB)** — analytical queries on cleaned data
 
 ---
 
@@ -128,6 +130,7 @@ The promotion generated significantly more revenue and profit per month than the
 
 - Only Jan–Sep 2024 data is available — no full-year baseline for seasonal comparison
 - The before period is 6 months; the promotion period is 3 months — all comparisons account for this time difference
+- The promotion period happened during the pick summer season, maybe the increase in volume of orders come from that.
 - 452 malformed rows and 220 duplicate line items were dropped; if these were non-random, results may be slightly biased
 - `unit_cost` values were stored with a European decimal comma — corrected to standard float format
 - The net promotion profit calculation covers only qualifying orders (> €50) where shipping was waived

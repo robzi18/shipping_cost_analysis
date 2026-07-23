@@ -1,0 +1,6 @@
+__MACOSX/
+.ipynb_checkpoints/
+__pycache__/
+*.duckdb
+*.duckdb.wal
+HINTS.md
